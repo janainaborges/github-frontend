@@ -1,0 +1,16 @@
+.user-details {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.user-details h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-details p {
+  margin: 10px 0;
+}

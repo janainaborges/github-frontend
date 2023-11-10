@@ -1,0 +1,42 @@
+.user-list {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.user-item {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-item:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #eee;
+}
+
+.pagination button:disabled {
+  color: #aaa;
+  cursor: default;
+}

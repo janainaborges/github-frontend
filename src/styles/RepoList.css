@@ -1,0 +1,32 @@
+.user-repositories {
+  margin-top: 20px;
+}
+
+.user-repositories table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-repositories th, 
+.user-repositories td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-repositories th {
+  background-color: #f8f8f8;
+}
+
+.user-repositories tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.user-repositories a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.user-repositories a:hover {
+  text-decoration: underline;
+}
